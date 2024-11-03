@@ -2803,9 +2803,9 @@ i.anzhiyu-icon-hashtag {
   --anzhiyu-card-btn-bg: #30343f;
   --anzhiyu-post-blockquote-bg: #000;
   --anzhiyu-post-tabs-bg: #121212;
-  --anzhiyu-secondbg: #112d8c;
+  --anzhiyu-secondbg: #010103;
   --anzhiyu-shadow-nav: 0 5px 20px 0px rgba(28,28,28,0.4);
-  --anzhiyu-card-bg: transparent;
+  --anzhiyu-card-bg: rgba(0,0,0,0.6);
   --anzhiyu-shadow-lightblack: 0 5px 12px -5px rgba(102,68,68,0);
   --anzhiyu-shadow-light2black: 0 5px 12px -5px rgba(102,68,68,0);
   --anzhiyu-card-border: #2ea8a3;
@@ -22317,7 +22317,7 @@ body[data-type="essay"] #page .author-content-item .card-content .banner-button-
   }
 }
 [data-theme="dark"] #bbTimeList {
-  background: #000 !important;
+  background: rgba(0, 0, 0, .6) !important;
 }
 #bbtalk {
   width: 100%;
@@ -22397,7 +22397,6 @@ i.bber-gotobb {
   height: 66px;
   width: 66px;
 }
-
 /* 导航栏音乐 */
 @media screen and (max-width: 1200px) {
   #nav-music {
