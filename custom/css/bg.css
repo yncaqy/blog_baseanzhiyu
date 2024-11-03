@@ -1,0 +1,35 @@
+#recent-posts > .recent-post-item .post_cover {
+    padding: 7px;
+    border-radius: 15px;
+    overflow: hidden;
+    height: 100%;
+}
+
+#recent-posts > .recent-post-item .post_cover:hover {
+    transform: scale(1);
+}
+
+#recent-posts > .recent-post-item {
+    transition: all .5s;
+    height: 200px;
+}
+
+#recent-posts > .recent-post-item .post_cover img.post_bg {
+    border-radius: 10px;
+}
+
+#footer-bar {
+    background: transparent;
+}
+
+#aside-content .card-archives ul.card-archive-list {
+    height: 70px;
+}
+
+#page-header #nav {
+    outline: none !important;
+}
+
+[data-theme='dark'].aplayer .aplayer-body {
+    background: #0d0d0d;
+}

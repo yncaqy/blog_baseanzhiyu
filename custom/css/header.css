@@ -1,0 +1,19 @@
+#page-header.not-top-img #nav #menus .menus_item:hover > a{
+    border-radius: 10px;
+}
+
+#nav #blog_name a,
+#nav .mask-name-container a,
+#nav #menus a,
+#nav #nav-right .nav-button a,
+#nav #nav-right #toggle-menu a {
+    border-radius: 10px;
+}
+
+#nav .menus_items .menus_item:hover .menus_item_child {
+    border-radius: 10px;
+}
+
+.anzhiyu-icon-jike:before {
+    content: "\e651" !important;
+}
