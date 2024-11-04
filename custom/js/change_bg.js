@@ -116,3 +116,15 @@ function toggleWinbox() {
     if (document.querySelector('#changeBgBox')) winbox.toggleClass('hide');
     else createWinbox();
 }
+
+// 切换浅色和深色
+function switchDarkMode() {
+    "light" === ("dark" === document.documentElement.getAttribute("data-theme") ? "dark" : "light") ? (activateDarkMode(),
+        saveToLocal.set("theme", "dark", 2),
+    void 0 !== GLOBAL_CONFIG.Snackbar && btf.snackbarShow(GLOBAL_CONFIG.Snackbar.day_to_night)) : (activateLightMode(),
+        saveToLocal.set("theme", "light", 2),
+    void 0 !== GLOBAL_CONFIG.Snackbar && btf.snackbarShow(GLOBAL_CONFIG.Snackbar.night_to_day)),
+    "function" == typeof utterancesTheme && utterancesTheme(),
+    "object" == typeof FB && window.loadFBComment(),
+    window.DISQUS && document.getElementById("disqus_thread").children.length && setTimeout(( () => window.disqusReset()), 200)
+}

@@ -22,9 +22,9 @@
     background: transparent;
 }
 
-#aside-content .card-archives ul.card-archive-list {
-    height: 70px;
-}
+/*#aside-content .card-archives ul.card-archive-list {*/
+/*    height: 100px;*/
+/*}*/
 
 #page-header #nav {
     outline: none !important;
@@ -35,11 +35,67 @@
     background: none !important;
 }
 
+
+
+#recent-posts>.recent-post-item {
+    position: relative;
+}
+
+
+/* ===========最新文章图标=========== */
+.newPost-left,
+.newPost-right {
+    position: absolute;
+    top: 0;
+    color: white;
+    padding: 0 15px;
+    background-color: #49b1f5;
+    border-radius: 0 0 10px 10px;
+}
+
+.newPost-left {
+    left: 15px;
+}
+
+.newPost-right {
+    right: 15px;
+}
+/* =============最新文章图标=========== */
+
+
+* {
+    scrollbar-width: none;
+}
+
+#aside-content .card-widget:not(.card-info):not(#card-tuijian):not(#card-wechat):before {
+    content: "";
+    width: 12.5px;
+    background: linear-gradient(to top, transparent, #ee6363bb);
+    display: block;
+    position: absolute;
+    left: 0;
+    height: 113px;
+    bottom: 27px;
+}
+
+#aside-content .card-widget:not(.card-info):not(#card-tuijian):not(#card-wechat) {
+    clip-path: polygon(100% 0, 100% 100%, 0 100%, 0 calc(100% - 52.5px), 12.5px calc(100% - 40px), 12.5px calc(100% - 50px), 0 calc(100% - 62.5px), 0 calc(100% - 82.5px), 12.5px calc(100% - 70px), 12.5px calc(100% - 80px), 0 calc(100% - 92.5px), 0 calc(100% - 112.5px), 12.5px calc(100% - 100px), 12.5px calc(100% - 112.5px), 12.5px calc(100% - 110px), 0 calc(100% - 122.5px), 0 calc(100% - 142.5px), 12.5px calc(100% - 130px), 12.5px calc(100% - 141.5px), 0 calc(100% - 154px), 0 0);
+    border-left: none !important;
+}
+
+#aside-content > div.sticky_layout > div > div.card-archives {
+    overflow: auto;
+}
+
 /* 由于全屏会出bug，所以直接给他隐藏 */
 
 .winbox {
     border-radius: 12px;
     overflow: hidden;
+}
+
+.wb-title {
+    color: var(--anzhiyu-theme);
 }
 
 .wb-full {
@@ -50,8 +106,8 @@
     background-position: center;
 }
 
-[data-theme='dark'] .wb-body,
-[data-theme='dark'] #changeBgBox {
+.wb-body,
+#changeBgBox {
     background: var(--anzhiyu-card-bg) !important;
 }
 
