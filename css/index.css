@@ -19726,7 +19726,7 @@ body[data-type="album_detail"] #page .page-title {
 
 #album_detail .album-content-img img {
   object-fit: cover;
-  max-width: 100%;
+  max-width: 32%;
   border-radius: 12px;
   margin: 10px 0;
 }
@@ -19736,7 +19736,6 @@ body[data-type="album_detail"] #page .page-title {
   max-height: 300px;
   border-radius: 12px;
   overflow: hidden;
-  display: flex;
   position: relative;
 }
 
@@ -19758,14 +19757,15 @@ body[data-type="album_detail"] #page .page-title {
 }
 #album_detail div.album-content {
   display: flex;
-  flex-flow: wrap;
+  /*flex-flow: wrap;*/
   border-radius: 12px;
   width: 100%;
   height: 100%;
+  flex-direction:column;
 }
 #album_detail .timeline ul li.album-item {
   position: relative;
-  width: 32%;
+  width: 100%;
   border: var(--style-border-always);
   border-radius: 12px;
   padding: 1rem 1rem 0.5rem;
