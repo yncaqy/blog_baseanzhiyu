@@ -28,17 +28,12 @@
 
 #page-header #nav {
     outline: none !important;
+    background: var(--anzhiyu-card-bg);
 }
 
-
-
-[data-theme='dark'] #page-header.nav-fixed > #nav, [data-theme='dark'] #page-header.not-top-img > #nav {
-    background: rgba(0,0,0,.36);
+#footer {
+    background: none !important;
 }
-
-
-
-
 
 /* 由于全屏会出bug，所以直接给他隐藏 */
 
@@ -57,7 +52,7 @@
 
 [data-theme='dark'] .wb-body,
 [data-theme='dark'] #changeBgBox {
-    background: #333 !important;
+    background: var(--anzhiyu-card-bg) !important;
 }
 
 .bgbox {
