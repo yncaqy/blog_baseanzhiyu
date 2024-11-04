@@ -1,3 +1,3 @@
-var posts=["2023/04/14/DRF/","2024/10/29/线性代数的解法/","2024/10/30/hello-world/"];function toRandomPost(){
+var posts=["1243066710/","3481172980/","1885882428/"];function toRandomPost(){
     pjax.loadUrl('/'+posts[Math.floor(Math.random() * posts.length)]);
   };
