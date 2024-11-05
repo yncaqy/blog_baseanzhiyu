@@ -41,6 +41,10 @@
     position: relative;
 }
 
+#console .console-card.history .card-archive-list .card-archive-list-link {
+    border-radius: 12px;
+}
+
 
 /* ===========最新文章图标=========== */
 .newPost-left,
