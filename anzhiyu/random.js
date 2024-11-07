@@ -1,3 +1,3 @@
-var posts=["1243066710/","1885882428/","3481172980/","1/"];function toRandomPost(){
+var posts=["1243066710/","1885882428/","668177610/","1/","3481172980/"];function toRandomPost(){
     pjax.loadUrl('/'+posts[Math.floor(Math.random() * posts.length)]);
   };
