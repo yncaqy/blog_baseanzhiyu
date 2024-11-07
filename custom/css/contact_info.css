@@ -296,6 +296,7 @@
 }
 .contact_music .aplayer .aplayer-body {
     border-bottom: 2px solid var(--anzhiyu-card-border);
+    border-radius: 6px;
 }
 
 .contact_music .aplayer .aplayer-list ol li span.aplayer-list-title{

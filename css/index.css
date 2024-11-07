@@ -22358,7 +22358,7 @@ i.bber-gotobb {
 }
 
 #nav-music.playing {
-  border: var(--style-border);
+  /* border: var(--style-border); */
   box-shadow: 0 0px 12px -3px var(--anzhiyu-none);
   animation: playingShadow 5s linear infinite;
 }
@@ -22474,13 +22474,13 @@ i.bber-gotobb {
 }
 
 #nav-music .aplayer {
-  background: var(--card-bg);
+  background: #030304bd;
   border-radius: 60px;
   height: 41px;
   display: flex;
   margin: 0;
   transition: 0.3s;
-  border: var(--style-border);
+  /* border: var(--style-border); */
   box-shadow: none;
 }
 
@@ -22556,6 +22556,8 @@ i.bber-gotobb {
   text-overflow: ellipsis;
   transition: 0.3s;
   user-select: none;
+  color: antiquewhite;
+  font-size: 12px;
 }
 
 #nav-music .aplayer .aplayer-info .aplayer-controller {
