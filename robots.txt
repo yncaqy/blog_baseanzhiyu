@@ -1,0 +1,13 @@
+# hexo robots.txt
+User-agent: *
+Allow: /
+Allow: /archives/
+Allow: /tags/
+Allow: /categories/
+Allow: /about/
+
+Disallow: /js/
+Disallow: /css/
+
+Sitemap: https://ync.aqyync.top/sitemap.xml
+Sitemap: https://ync.aqyync.top/baidusitemap.xml
