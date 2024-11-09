@@ -19144,7 +19144,7 @@ p.p.gray {
 }
 [data-theme='dark'] {
   --global-bg: #3e4e49;
-  --font-color: rgba(255,255,255,0.7);
+  --font-color: rgba(56,116,92,0.7);
   --hr-border: rgba(255,255,255,0.4);
   --hr-before-color: rgba(255,255,255,0.7);
   --search-bg: #121212;
