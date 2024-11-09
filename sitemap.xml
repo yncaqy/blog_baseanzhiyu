@@ -164,13 +164,6 @@
 
   
   <url>
-    <loc>https://ync.aqyync.top/tags/DRF%E6%A1%86%E6%9E%B6/</loc>
-    <lastmod>2024-11-09</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>https://ync.aqyync.top/tags/test/</loc>
     <lastmod>2024-11-09</lastmod>
     <changefreq>weekly</changefreq>
@@ -191,14 +184,14 @@
     <priority>0.2</priority>
   </url>
   
-
-  
   <url>
-    <loc>https://ync.aqyync.top/categories/%E5%90%8E%E7%AB%AF/</loc>
+    <loc>https://ync.aqyync.top/tags/DRF%E6%A1%86%E6%9E%B6/</loc>
     <lastmod>2024-11-09</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
+  
+
   
   <url>
     <loc>https://ync.aqyync.top/categories/test/</loc>
@@ -215,7 +208,7 @@
   </url>
   
   <url>
-    <loc>https://ync.aqyync.top/categories/%E5%90%8E%E7%AB%AF/python/</loc>
+    <loc>https://ync.aqyync.top/categories/%E5%90%8E%E7%AB%AF/</loc>
     <lastmod>2024-11-09</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -223,6 +216,13 @@
   
   <url>
     <loc>https://ync.aqyync.top/categories/%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6/</loc>
+    <lastmod>2024-11-09</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://ync.aqyync.top/categories/%E5%90%8E%E7%AB%AF/python/</loc>
     <lastmod>2024-11-09</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
