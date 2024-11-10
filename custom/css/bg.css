@@ -192,3 +192,10 @@ div#tag{
     padding: 4px;
     border-radius: 4px;
 }
+#recent-posts > .recent-post-item >.recent-post-info > .article-meta-wrap > .post-meta-date,
+#recent-posts > .recent-post-item .recent-post-info .article-title {
+    color: var(--font-color);
+}
+#recent-posts > .recent-post-item .unvisited-post:visited {
+    color: #0095c2;
+}
